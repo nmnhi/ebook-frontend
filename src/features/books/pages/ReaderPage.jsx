@@ -126,6 +126,22 @@ const ReaderPage = () => {
 
   return (
     <div className="flex-1 pdf-container flex justify-center items-start p-4 pb-24 overflow-y-auto overflow-x-hidden">
+      <div
+        onClick={() => navigate(-1)}
+        className="fixed top-16 left-3 px-2 py-2 cursor-pointer
+            rounded-2xl flex
+            shadow-2xl
+            z-50 text-gray-800
+            backdrop-blur-xl backdrop-saturate-150
+            bg-gradient-to-r from-white/40 via-white/35 to-white/30
+            dark:from-gray-800/40 dark:via-gray-800/35 dark:to-gray-800/30
+            border border-white/50 dark:border-gray-700/50
+            hover:shadow-3xl transition-all duration-300
+            before:absolute before:inset-0 before:rounded-2xl
+            before:bg-gradient-to-br before:from-blue-400/10 before:via-purple-400/10 before:to-pink-400/10"
+      >
+        <ChevronLeft />
+      </div>
       {/* PDF Viewer */}
       <div className="flex-1 overflow-auto flex justify-center items-start p-4">
         {loading && (

@@ -1,4 +1,4 @@
-import ReaderPage from "@/features/books/ReaderPage";
+import ReaderPage from "@/features/books/pages/ReaderPage";
 import HomePage from "@features/home/pages/HomePage";
 import { Route, Routes } from "react-router-dom";
 

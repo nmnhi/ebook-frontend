@@ -1,6 +1,6 @@
 import { banner } from "@/assets/images";
 import bookApi from "@/core/api/bookApi";
-import BookCard from "@/features/books/BookCard";
+import BookCard from "@/features/books/components/BookCard";
 import { Button } from "primereact/button";
 import { useEffect, useState } from "react";
 
